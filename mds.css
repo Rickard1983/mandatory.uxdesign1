@@ -106,7 +106,7 @@ fieldset {
   display: none;
 }
 
-/* Changing the background color when checked*/
+
 .mds-checkbox__input:checked ~ .mds-checkbox__div{
   background-color: #6200EEFF;
   border: none;
