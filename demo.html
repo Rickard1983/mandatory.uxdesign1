@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MD Simple</title>
+
+    <link rel="stylesheet" href="mds.css">
+    <script src="mds.js" defer="defer" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div>
+      <div class="mds-text-field">
+        <input type="text" class="mds-text-field__input">
+        <label class="mds-text-field__label">Name</label>
+        <span class="mds-text-field__bar"></span>
+      </div>
+
+      <div class="mds-text-field">
+        <input type="text" class="mds-text-field__input" disabled="disabled">
+        <label class="mds-text-field__label">Name</label>
+        <span class="mds-text-field__bar"></span>
+      </div>
+    </div>
+
+    <div>
+      <div class="mds-switch">
+        <input class="mds-switch__input" id="switch__input" type="checkbox">
+        <label class="mds-switch__lable" for="switch__input"></label>
+      </div>
+
+      <div class="mds-switch">
+        <input class="mds-switch__input" id="switch__input--disabled" type="checkbox" checked="checked" disabled="disabled">
+        <label class="mds-switch__lable" for="switch__input--disabled"></label>
+      </div>
+    </div>
+
+    <div>
+      <label class="mds-checkbox">
+        <input class="mds-checkbox__input" type="checkbox">
+        <span class="mds-checkbox__span"></span>
+      </label>
+
+      <label class="mds-checkbox">
+        <input class="mds-checkbox__input" type="checkbox" checked="checked" disabled="disabled">
+        <span class="mds-checkbox__span"></span>
+      </label>
+    </div>
+
+    <div >
+      <label class="mds-radio">1
+        <input class="mds-radio__input" type="radio" name="radio" checked="checked">
+        <span class="mds-radio__span"></span>
+      </label>
+
+      <label class="mds-radio">2
+        <input class="mds-radio__input" type="radio" name="radio">
+        <span class="mds-radio__span"></span>
+      </label>
+
+
+
+  </body>
+</html>
