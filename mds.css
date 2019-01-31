@@ -127,15 +127,21 @@ fieldset {
 }
 
 .mds-radio__div1 {
-  position: absolute;
-  top: 400px;
-  left:200px;
+  position: relative;
+      padding-left: 28px;
+      cursor: pointer;
+      line-height: 20px;
+      display: inline-block;
+      color: #666;
 }
 
 .mds-radio__div2 {
-  position: absolute;
-  top: 400px;
-  left:200px;
+  position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
 }
 
 
