@@ -53,10 +53,6 @@ body {
   line-height: 20px;
 }
 
-.mds-text-field__input:focus+.mds-text-field__label,
-.mds-text-field__input--value+.mds-text-field__label {
-  top: 16px;
-  font-size: 12px;
 }
 
 .mds-text-field__input:focus+.mds-text-field__label {
